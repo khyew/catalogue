@@ -44,7 +44,7 @@ func init() {
 func main() {
 	// Profiler initialization, best done as early as possible.
 	if err := profiler.Start(profiler.Config{
-		Service:        "myservice",
+		Service:        "catalogue",
 		ServiceVersion: "1.0.0",
 		// ProjectID must be set if not running on GCP.
 		// ProjectID: "my-project",
